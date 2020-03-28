@@ -7,10 +7,10 @@
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "Bmi2Kgne7ZV3xejqsz",
-    "database": "testdb",
-    "host": "localhost",
+    "username": "uj3dezxbvkpzlv1j",
+    "password": "j9ifz73bvo6hyiid",
+    "database": "dhwvm9d24iur63u9",
+    "host": "otmaa16c1i9nwrek.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"
     "dialect": "mysql",
     "logging": false
   },
