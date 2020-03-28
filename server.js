@@ -20,8 +20,8 @@ let app = express();
 let PORT = process.env.PORT || 3000;
 
 // HTTP request logging
-let accessLogStream = fs.createWriteStream(path.join(__dirname, 'log/access.log'), { flags: 'a' });
-app.use(morgan('combined', { stream: accessLogStream }));  
+// let accessLogStream = fs.createWriteStream(path.join(__dirname, 'log/access.log'), { flags: 'a' });
+// app.use(morgan('combined', { stream: accessLogStream }));  
 
 // Middleware for Facebook Auth
 app.use(express.urlencoded({ extended: true }));
